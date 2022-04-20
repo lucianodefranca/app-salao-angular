@@ -9,11 +9,13 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 
 
 import { HeaderComponent } from './views/template/header/header.component';
+import { FooterComponent } from './views/template/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
